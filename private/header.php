@@ -1,3 +1,3 @@
 <div class="header">
-  <h2>Blog Name</h2>
+    <h2>BLJ Blog</h2>
 </div>
