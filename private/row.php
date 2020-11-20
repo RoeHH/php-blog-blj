@@ -1,4 +1,4 @@
 <div class="row">
-    <?php include './sidebar/sidebar.php';?>
-    <?php include './blog/blog.php';?>
+    <?php include '../private/blog/blog.php';?>
+    <?php include '../private/sidebar/sidebar.php';?>
 </div>
