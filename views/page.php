@@ -6,9 +6,8 @@
     </head>
 <body>
 
-<div class="header">
-  <h2>Blog Name</h2>
-</div>
+
+<?php include '../private/header.php';?>
 
 <div class="row">
   <div class="leftcolumn">
