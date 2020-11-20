@@ -1,4 +1,4 @@
 <div class="rightcolumn">
-    <?php include './sidebarcontent/bloglinks.php';?>
-    <?php include './sidebarcontent/popularposts.php';?>
+    <?php include '../private/sidebar/sidebarcontent/bloglinks.php';?>
+    <?php include '../private/sidebar/sidebarcontent/popularposts.php';?>
 </div>
