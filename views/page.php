@@ -26,6 +26,9 @@
       <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
     </div>
   </div>
+
+
+<?php include '../private/sidebar.php';?>
   <div class="rightcolumn">
     <div class="card">
       <h2>About Me</h2>
@@ -38,11 +41,8 @@
       <div class="fakeimg">Image</div><br>
       <div class="fakeimg">Image</div>
     </div>
-    <div class="card">
-      <h3>Follow Me</h3>
-      <p>Some text..</p>
-    </div>
   </div>
+
 </div>
 
 <div class="footer">
