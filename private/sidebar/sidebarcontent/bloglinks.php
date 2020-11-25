@@ -13,7 +13,7 @@
     
 ?>
 <div class="card">
-    <h3>Other amazing Blogs</h3>
+    <h3>Other "amazing" Blogs</h3>
     <?php
     foreach ($urls as $key => $value) {
         $link = substr($value[2],0,-(strlen($value[1]) + 6));
