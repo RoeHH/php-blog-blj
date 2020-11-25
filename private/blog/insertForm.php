@@ -1,6 +1,6 @@
 
 <div class="card formcard">
-    <form action="/page.php">
+    <form action="page.php" method="post">
     <table style="width:100%">
     </tr>
         <label for="title"></label>
@@ -8,11 +8,11 @@
     </tr>
     <tr>
         <label for="text"></label>
-        <textarea rows="10" cols="50" placeholder="Your Text"></textarea><br>
+        <textarea  id="text" name="text" rows="10" cols="50" placeholder="Your Text"></textarea><br>
     </tr>
     <tr> 
-        <label for="name"></label>
-        <input type="" id="name" name="name" value="Your Nickname" onfocus="this.value='';">
+        <label for="nickname"></label>
+        <input type="" id="nickname" name="nickname" value="Your Nickname" onfocus="this.value='';">
     </tr>
     <tr>
         <input class="submit" type="submit" value="Submit">
@@ -20,4 +20,4 @@
 
     </table>
     </form> 
-</div>";
+</div>
