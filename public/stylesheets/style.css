@@ -73,6 +73,10 @@ h5 {
     margin-top: 20px;
 }
 
+.img {
+    max-width: 100%;
+}
+
 
 /* Clear floats after the columns */
 
@@ -91,6 +95,20 @@ h5 {
     padding: 20px;
     text-align: center;
     margin-top: 20px;
+}
+
+
+/* Error */
+
+.panel {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.red {
+    color: #fff !important;
+    background-color: #f44336 !important
 }
 
 

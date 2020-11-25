@@ -9,6 +9,7 @@
     $time_array = array();
     $text_array = array();
     $title_array = array();
+    $img_array = array();
     $y = 0;
     $stmt = $pdo->query('SELECT created_by FROM `posts`');
     foreach($stmt->fetchAll() as $nr => $x) {
@@ -26,5 +27,9 @@
     foreach($stmt->fetchAll() as $nr => $x) {
         $title_array[$nr] =  "$x[0]";
         $y++;
+    }  
+    $stmt = $pdo->query('SELECT img FROM `posts`');
+    foreach($stmt->fetchAll() as $nr => $x) {
+        $img_array[$nr] =  "$x[0]";
     }  
 ?>
