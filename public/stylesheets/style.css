@@ -88,15 +88,9 @@ h5 {
     clear: both;
 }
 
-
-/* Footer */
-
-.footer {
-    background: rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 0.3);
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
+.login {
+    width: 10px;
+    background-color: red;
 }
 
 
