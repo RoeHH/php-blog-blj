@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="../public/stylesheets/form.css">
     </head>
     <body class="body">
+        <?php include '../private/checkForAction.php';?>
         <?php include '../private/header.php';?>
         <?php include '../private/row.php';?>
         <?php include '../private/footer.php';?>

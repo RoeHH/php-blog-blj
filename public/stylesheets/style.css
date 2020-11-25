@@ -75,6 +75,16 @@ h5 {
     margin-top: 20px;
 }
 
+.cpostbutton {
+    font-size: 16px;
+    background: transparent;
+    border: none !important;
+}
+
+.cloakOfInvisibility {
+    display: none;
+}
+
 .img {
     max-width: 100%;
 }
@@ -91,8 +101,24 @@ h5 {
 .login {
     position: relative;
     top: 0px;
-    left: 90%;
+    left: 70%;
     width: 10px;
+    background: transparent;
+    border: none !important;
+}
+
+#inline {
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    margin-top: 20px;
+}
+
+.one,
+.two {
+    width: 50%;
+    height: 100px;
+    margin: 10px;
 }
 
 

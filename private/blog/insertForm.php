@@ -56,43 +56,43 @@
         return false;
     }
 ?>
-<div class="card formcard">
-    <h2>Write your own</h2>
-    <?PHP
-        //displays errors if mistakes were made
-        if ($isalert === true && $fakealert === false){
-        echo "<div class=\"panel red\"><ul>";
-        foreach($alert_list as $value){
-            if ($value != ""){
-            echo "<li>" . $value . "</li>";   
+<?php if ($createPost) { ?>
+    <div class="card formcard">
+        <h2>Write your own</h2>
+        <?PHP
+            //displays errors if mistakes were made
+            if ($isalert === true && $fakealert === false){
+            echo "<div class=\"panel red\"><ul>";
+            foreach($alert_list as $value){
+                if ($value != ""){
+                echo "<li>" . $value . "</li>";   
+                }
             }
-        }
-        echo "<ul></div>";
-        }
-    ?>
-    <form action="page.php" method="post">
-    <table style="width:100%">
-
-    </tr>
-        <label for="title"></label>
-        <input type="text" id="title" name="title" value="Title" onfocus="this.value='';">
-    </tr>
-    <tr> 
-        <label for="img"></label>
-        <input type="text" id="img" name="img" value="Url of Img" onfocus="this.value='';">
-    </tr>
-    <tr> 
-        <label for="nickname"></label>
-        <input type="text" id="nickname" name="nickname" value="Your Nickname" onfocus="this.value='';">
-    </tr>
-    <tr>
-        <label for="text"></label>
-        <textarea  id="text" name="text" rows="10" cols="50" placeholder="Your Text"></textarea><br>
-    </tr>
-    <tr>
-        <input class="submit" type="submit" value="Submit">
-    </tr>
-
-    </table>
-    </form> 
-</div>
+            echo "<ul></div>";
+            }
+        ?>
+        <form action="page.php" method="post">
+            <table style="width:100%">
+                </tr>
+                    <label for="title"></label>
+                    <input type="text" id="title" name="title" value="Title" onfocus="this.value='';">
+                </tr>
+                <tr> 
+                    <label for="img"></label>
+                    <input type="text" id="img" name="img" value="Url of Img" onfocus="this.value='';">
+                </tr>
+                <tr> 
+                    <label for="nickname"></label>
+                    <input type="text" id="nickname" name="nickname" value="Your Nickname" onfocus="this.value='';">
+                </tr>
+                <tr>
+                    <label for="text"></label>
+                    <textarea  id="text" name="text" rows="10" cols="50" placeholder="Your Text"></textarea><br>
+                </tr>
+                <tr>
+                    <input class="submit" type="submit" value="Submit">
+                </tr>
+            </table>
+        </form> 
+    </div>
+<?php } ?>
