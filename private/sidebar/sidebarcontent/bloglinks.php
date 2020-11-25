@@ -10,12 +10,14 @@
 
     $sqlQuery = $pdo->query("SELECT * FROM `blog_url`");
     $urls = $sqlQuery->fetchAll();
+    
 ?>
 <div class="card">
     <h3>Other amazing Blogs</h3>
     <?php
     foreach ($urls as $key => $value) {
-        echo "<a href=\"$value[2]\">$value[0]. $value[1]</a><br>";
+        $link = substr($value[2],0,-(strlen($value[1]) + 6));
+        echo "<a href=\"$link\">$value[0]. $value[1]</a><br>";
     }
     ?>
 </div>
